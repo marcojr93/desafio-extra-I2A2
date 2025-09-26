@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+plotly
+python-dotenv
+langchain
+langchain-google-genai
+langchain-experimental
+langchain-community
+langchain-core
+google-generativeai
+tabulate
+reportlab

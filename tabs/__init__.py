@@ -1,0 +1,1 @@
+# Módulo tabs para organização das abas do Streamlit
