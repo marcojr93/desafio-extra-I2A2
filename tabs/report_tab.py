@@ -379,8 +379,12 @@ def summarize_findings(df, memory: list) -> str:
     Você analisou um dataset com {df.shape[0]} linhas e {df.shape[1]} colunas.
     Histórico de análises anteriores: {history}
 
-    Gere um resumo com as conclusões mais importantes sobre o dataset,
-    destacando padrões, possíveis anomalias e insights úteis.
+    Gere um relatorio com os itens selecionados pelo usuario na secao 'Itens para o Relatório na barra lateral',
+    Siga as instruções abaixo:
+    1. Estruture o relatório com seções claras e títulos descritivos.
+    2. SE houver um aquivo .png salvo, não esqueça de incluir o arquivo gerado em seu relatorio final.
+    3. Gere conclusoes acionaveis e insights práticos baseados nos dados analisados.
+    4. Use linguagem clara e objetiva, evitando jargões técnicos.
     """
 
     response = model.generate_content(prompt)
