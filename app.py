@@ -84,8 +84,15 @@ def load_csv_safely(uploaded_file) -> Tuple[Optional[pd.DataFrame], Optional[str
         return None, f"❌ Erro inesperado ao processar o arquivo: {str(e)}"
 
 # Configuração da página
+# Configuração da página
 st.set_page_config(page_title="Data Inspector", layout="wide")
-st.title("🚀 Plataforma de Análise de Dados")
+
+# Logo centralizada
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("logo.png", width=300)
+    
+st.title("🚀 EDA Chatbot - Plataforma de Análise de Dados")
 
 # --- ESTADO DA SESSÃO ---
 # Inicializa as variáveis no estado da sessão para persistirem entre as interações.
