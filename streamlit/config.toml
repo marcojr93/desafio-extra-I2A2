@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#4B9CD3"         # Cor principal (botões, links, etc.)
+backgroundColor = "#E9E9EC"      # A cor do fundo (a do logo que você passou)
+secondaryBackgroundColor = "#FFFFFF"  # Fundo de elementos como sidebar
+textColor = "#000000"            # Cor do texto
+font = "sans serif"              # Fonte padrão
